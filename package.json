@@ -1,0 +1,20 @@
+{
+  "name": "float-query-danfojs-vs-apachearrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "run": "node --experimental-modules index.mjs"
+  , "dev": "nodemon --experimental-modules index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apache-arrow": "^3.0.0",
+    "danfojs-node": "^0.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
